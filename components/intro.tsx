@@ -1,5 +1,4 @@
 "use client";
-
 import Image from 'next/image';
 import React from 'react';
 import { motion } from "framer-motion";
@@ -8,7 +7,7 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs"
 import { HiDownload } from "react-icons/hi"
 import { FaGithub, FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 
-export default function intro() {
+export default function Intro() {
   return (
     <section className='mb-28 max-w-[50rem] text-center sm:mb-0'>
         <div className='flex items-center justify-center'>
@@ -21,7 +20,7 @@ export default function intro() {
               duration: 0.2,
             }}      
           >
-           <Image src={"https://media.licdn.com/dms/image/D4D35AQFaMIMgb7N8Gg/profile-framedphoto-shrink_200_200/0/1716699111859?e=1719201600&v=beta&t=pyrXOkWVLGDd7sVEbatIKaaVf5NReQJyiUgL_jD3MZo"} alt="Vitor Rodrigues ( Retrato )" 
+           <Image src={"/profilepicture.jpg"} alt="Vitor Rodrigues ( Retrato )" 
               width="192"
               height="192"
               quality="95"
@@ -31,7 +30,7 @@ export default function intro() {
           </motion.div>  
           
 
-            <motion.span className='absolute bottom-0 right-0 text-[28px]'
+            <motion.span className='absolute bottom-0 right-0 text-4xl'
               initial={{ opacity: 0, scale: 0 }} 
               animate={{ opacity: 1, scale: 1 }}
               transition={{
