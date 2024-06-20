@@ -45,6 +45,11 @@ function Projeto({ title, description, tags, imageUrl }: ProjetoProps) {
                     group-hover:-translate-x-3
                     group-hover:translate-y-3
                     group-hover:-rotate-2
+
+                    group-even:group-hover:translate-x-3
+                    group-even:group-hover:translate-y-3
+                    group-even:group-hover:rotate-2
+
                     group-even:right-[initial] 
                     group-even:-left-40'
                 />
