@@ -7,7 +7,7 @@ import Projeto from './projeto'
 
 export default function Projetos() {
   return (
-    <section>
+    <section id='projetos' className='scroll-mt-28' >
         <SectionHeading>Meus projetos</SectionHeading>
         <div>
             {projectsData.map((project, index) => (
