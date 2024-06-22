@@ -64,15 +64,15 @@ export const projectsData = [
   {
     title: "Converrcy",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Conversor de moedas online e totalmente funcional. No momento, meu principal projeto feito com CRA ( Create React App ).",
+    tags: ["React", "TypeScript", "Figma", "Tailwind", "API"],
     imageUrl: converrcyImg,
   },
   {
-    title: "Jogo da Velha ( Next.Js )",
+    title: "Jogo da Velha",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Jogo da Velha produzido no bootcamp da ELITI que funcionou como minha ponte do React para Next.Js",
+    tags: ["React", "TypeScript", "Next.js", "Vercel"],
     imageUrl: jogodavelhaImg,
   },
   {
