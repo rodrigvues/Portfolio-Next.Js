@@ -24,8 +24,8 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experiência",
-    hash: "#experiencia",
+    name: "Formação",
+    hash: "#formacao",
   },
   {
     name: "Contato",
@@ -33,30 +33,30 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
+export const formacaoData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Começo do Curso Técnico",
+    location: "SENAI, Blumenau",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Começei o curso de desenvolvimento de sistemas que no inicio me ajudou muito com lógica de programação, design e até me introduziu a banco de dados. Usava Java, Portugol e Figma como principais ferramentas.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "02 / 2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "BootCamp da Eliti",
+    location: "AMcom, Blumenau",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Entrei no BootCamp de Next.Js da Eliti onde no período de um mês evolui muito. Sai do conhecimento básico de Front-end até o meu primeiro projeto em React e Next, o que em pouco tempo aumentou meu domínio nas linguagens e me influenciou a focar mais no Front-end. ",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "11 - 12 / 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "SA de Desenvolvimento de Sistemas",
+    location: "SENAI, Blumenau",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "A Situção de Aprendizagem, que funciona como um projeto final do meu curso, será um sistema completo para a indústria têxtil produzido pela turma, onde ajudo principalmente com o front-end (feito em HTML,CSS e JS) e a modelagem do banco de dados. No geral, o processo vem me proporcionando muita experiência em criação de projetos, trabalho em grupos e método SCRUM. ",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "05 / 2024 - Momento",
   },
 ] as const;
 

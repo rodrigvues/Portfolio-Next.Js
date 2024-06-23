@@ -1,3 +1,4 @@
+import Formacao from "@/components/formacao"
 import Intro from "@/components/intro"
 import Projetos from "@/components/projetos"
 import SectionDivider from "@/components/section-divider"
@@ -12,6 +13,7 @@ export default function Home() {
       <Sobre />
       <Projetos />
       <Skills />
+      <Formacao />
     </main>
   )
 }
