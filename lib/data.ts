@@ -64,7 +64,7 @@ export const projectsData = [
   {
     title: "Converrcy",
     description:
-      "Conversor de moedas online e totalmente funcional. No momento, meu principal projeto feito com CRA ( Create React App ).",
+      "Conversor de moedas online totalmente funcional. No momento, meu principal projeto feito com CRA ( Create React App ).",
     tags: ["React", "TypeScript", "Figma", "Tailwind", "API"],
     imageUrl: converrcyImg,
   },
