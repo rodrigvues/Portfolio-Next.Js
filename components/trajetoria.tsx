@@ -8,7 +8,7 @@ import { trajetoriaData } from '@/lib/data';
 import { useSectionInView } from '@/lib/hooks';
 
 export default function Trajetoria() {
-  const { ref } = useSectionInView('Trajetória');
+  const { ref } = useSectionInView('Trajetória', 0.5);
 
   return (
     <section id='trajetoria' ref={ref} className='scroll-mt-28 mb-28 sm:mb-40'>
