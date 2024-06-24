@@ -1,4 +1,4 @@
-import Formacao from "@/components/formacao"
+import Trajetoria from "@/components/trajetoria"
 import Intro from "@/components/intro"
 import Projetos from "@/components/projetos"
 import SectionDivider from "@/components/section-divider"
@@ -13,7 +13,7 @@ export default function Home() {
       <Sobre />
       <Projetos />
       <Skills />
-      <Formacao />
+      <Trajetoria />
     </main>
   )
 }

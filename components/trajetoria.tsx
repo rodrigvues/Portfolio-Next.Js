@@ -4,14 +4,14 @@ import React from 'react';
 import SectionHeading from './section-heading';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { formacaoData } from '@/lib/data';
+import { trajetoriaData } from '@/lib/data';
 
-export default function Formacao() {
+export default function Trajetoria() {
   return (
-    <section id='formacao' className='scroll-mt-28 mb-28'>
+    <section id='trajetoria' className='scroll-mt-28 mb-28'>
         <SectionHeading>Minha Trajetória</SectionHeading>
       <VerticalTimeline lineColor="">
-        {formacaoData.map((item, index) => (
+        {trajetoriaData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
               visible={true}

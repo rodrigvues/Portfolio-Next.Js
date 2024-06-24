@@ -24,8 +24,8 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Formação",
-    hash: "#formacao",
+    name: "Trajetória",
+    hash: "#trajetoria",
   },
   {
     name: "Contato",
@@ -33,7 +33,7 @@ export const links = [
   },
 ] as const;
 
-export const formacaoData = [
+export const trajetoriaData = [
   {
     title: "Começo do Curso Técnico",
     location: "SENAI, Blumenau",
