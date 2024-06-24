@@ -4,6 +4,7 @@ import Projetos from "@/components/projetos"
 import SectionDivider from "@/components/section-divider"
 import Skills from "@/components/skills"
 import Sobre from "@/components/sobre"
+import Contato from "@/components/contato"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Projetos />
       <Skills />
       <Trajetoria />
+      <Contato />
     </main>
   )
 }
