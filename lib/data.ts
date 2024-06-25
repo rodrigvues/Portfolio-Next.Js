@@ -1,6 +1,6 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { RiNextjsLine } from "react-icons/ri";
+import { LiaUniversitySolid } from "react-icons/lia";
 import { LuGraduationCap } from "react-icons/lu";
 import converrcyImg from "@/public/converrcy.png";
 import jogodavelhaImg from "@/public/jogodavelha.png";
@@ -47,7 +47,7 @@ export const trajetoriaData = [
     location: "AMcom, Blumenau",
     description:
       "Entrei no BootCamp de Next.Js da Eliti onde no período de um mês evolui muito. Sai do conhecimento básico de Front-end até o meu primeiro projeto em React e Next, o que em pouco tempo aumentou meu domínio nas linguagens e me influenciou a focar mais no Front-end. ",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(RiNextjsLine),
     date: "11 - 12 / 2023",
   },
   {
@@ -55,7 +55,7 @@ export const trajetoriaData = [
     location: "SENAI, Blumenau",
     description:
       "Como um dos projetos finais do meu curso, minha turma está produzinho a INDUSPHERE, um sistema automatizado completo para a indústria têxtil , onde ajudo principalmente com o front-end (feito em HTML,CSS e JS) e na modelagem do banco de dados. No geral, o processo vem me proporcionando muita experiência em criação de projetos, trabalho em grupos e método SCRUM. ",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(LiaUniversitySolid),
     date: "05 / 2024 - Momento",
   },
 ] as const;
