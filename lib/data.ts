@@ -51,10 +51,10 @@ export const trajetoriaData = [
     date: "11 - 12 / 2023",
   },
   {
-    title: "SA de Desenvolvimento de Sistemas",
+    title: "INDUSPHERE",
     location: "SENAI, Blumenau",
     description:
-      "A Situção de Aprendizagem, que funciona como um projeto final do meu curso, será um sistema completo para a indústria têxtil produzido pela turma, onde ajudo principalmente com o front-end (feito em HTML,CSS e JS) e a modelagem do banco de dados. No geral, o processo vem me proporcionando muita experiência em criação de projetos, trabalho em grupos e método SCRUM. ",
+      "Como um dos projetos finais do meu curso, minha turma está produzinho a INDUSPHERE, um sistema automatizado completo para a indústria têxtil , onde ajudo principalmente com o front-end (feito em HTML,CSS e JS) e na modelagem do banco de dados. No geral, o processo vem me proporcionando muita experiência em criação de projetos, trabalho em grupos e método SCRUM. ",
     icon: React.createElement(FaReact),
     date: "05 / 2024 - Momento",
   },
