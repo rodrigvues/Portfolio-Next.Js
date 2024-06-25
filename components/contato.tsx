@@ -19,7 +19,7 @@ export default function Contato() {
         }}
     >
       <SectionHeading>Me Contate</SectionHeading>
-      <p className='text-gray-700 -mt-6'>Você pode falar comigo atráves do meu e-mail, <a className='underline' href='mailto:rodrigvues@gmail.com'>rodrigvues@gmail.com</a>, ou através da caixa de mensagem abaixo.</p>
+      <p className='text-gray-700 -mt-6'>Fale comigo atráves do meu e-mail, <a className='underline' href='mailto:rodrigvues@gmail.com'>rodrigvues@gmail.com</a>, ou através da caixa de mensagem abaixo.</p>
       <form action="" className='mt-10 flex flex-col '>
         <input className='h-14 px-4 rounded-lg borderBlack' type="email" placeholder='Seu E-mail' />
         <textarea className='h-52 my-3 rounded-lg borderBlack p-4' name="" id="" placeholder='Sua Mensagem' />
