@@ -2,10 +2,11 @@
 
 import React from 'react'
 import SectionHeading from './section-heading'
-import { FaPaperPlane } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import { useSectionInView } from '@/lib/hooks';
 import { sendEmail } from '@/actions/sendEmail'
+import SubmitBtn from './submit-btn'
+import toast from 'react-hot-toast';
 
 export default function Contato() {
   const { ref } = useSectionInView('Contato');
@@ -20,27 +21,34 @@ export default function Contato() {
         }}
     >
       <SectionHeading>Entre em Contato</SectionHeading>
-      <p className='text-gray-700 -mt-6'>Fale comigo atráves do meu e-mail, <a className='underline' href='mailto:rodrigvues@gmail.com'>rodrigvues@gmail.com</a>, ou através da caixa de mensagem abaixo.</p>
-      <form className='mt-10 flex flex-col ' 
+      <p className='text-gray-700 -mt-6 dark:text-white/80'>Fale comigo atráves do meu e-mail, <a className='underline' href='mailto:rodrigvues@gmail.com'>rodrigvues@gmail.com</a>, ou através da caixa de mensagem abaixo.</p>
+      <form className='mt-10 flex flex-col dark:text-black' 
       action={async (formData) => {
-        await sendEmail(formData);
+        const {data, error } = await sendEmail(formData);
+
+        if (error) {
+          toast.error(error);
+          return;
+        }
+
+        toast.success("Email sent succesfully!");
       }} >
-        <input className='h-14 px-4 rounded-lg borderBlack' 
-        type="email" 
-        name='sernderEmail'
-        required
-        maxLength={500}
-        placeholder='Seu E-mail' />
-        <textarea className='h-52 my-3 rounded-lg borderBlack p-4' 
-        name="message" 
-        required
-        maxLength={500}
-        id="" 
-        placeholder='Sua Mensagem' />
-        <button type='submit' className='group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-gray-900 text-white rounded-full outline-none transition-all focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 ' >
-            Enviar
-            <FaPaperPlane className='text-xs opacity-70 transition-all group-hover:translate-x-1 group-hover:-translate-y-1 '/>{" "} 
-        </button>
+        <input 
+          className='h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none' 
+          type="email" 
+          name='senderEmail'
+          required
+          maxLength={500}
+          placeholder='Seu E-mail' 
+        />
+        <textarea 
+          className='h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none' 
+          name="message" 
+          required
+          maxLength={500} 
+          placeholder='Sua Mensagem' 
+        />
+        <SubmitBtn/>
       </form>
     </motion.section>
   )
