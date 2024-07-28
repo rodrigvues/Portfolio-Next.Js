@@ -45,7 +45,7 @@ export default function Contato() {
           className='h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none' 
           name="message" 
           required
-          maxLength={500} 
+          maxLength={500}   
           placeholder='Sua Mensagem' 
         />
         <SubmitBtn/>
