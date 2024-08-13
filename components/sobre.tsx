@@ -22,31 +22,37 @@ export default function Sobre() {
     >
         <SectionHeading>Sobre mim</SectionHeading>
         <p className='mb-3'>
-          After graduating with a degree in{" "}
-          <span className="font-medium">Accounting</span>, I decided to pursue my
-          passion for programming. I enrolled in a coding bootcamp and learned{" "}
-          <span className="font-medium">full-stack web development</span>.{" "}
-          <span className="italic">My favorite part of programming</span> is the
-          problem-solving aspect. I <span className="underline">love</span> the
-          feeling of finally figuring out a solution to a problem. My core stack
-          is{" "}
-          <span className="font-medium">
-            React, Next.js, Node.js, and MongoDB
-          </span>
-          . I am also familiar with TypeScript and Prisma. I am always looking to
-          learn new technologies. I am currently looking for a{" "}
-          <span className="font-medium">full-time position</span> as a software
-          developer.
-        </p>
+  Desde criança, já pensava em começar uma carreira na área de{" "}
+  <span className="font-medium">programação</span> pelo meu interesse na{" "}
+  <span className="font-medium">internet</span> e em computadores, e aos 15 anos{" "}
+  <span className="font-medium">comecei</span> o curso técnico em desenvolvimento de{" "}
+  <span className="font-medium">sistemas</span>, onde aprendi como realmente{" "}
+  <span className="font-medium">programar na prática</span>. Aprendo principalmente{" "}
+  <span className="font-medium">lógica, programação orientada a objetos</span> e{" "}
+  <span className="font-medium">banco de dados</span>, com{" "}
+  <span className="font-medium">Java e MySQL</span>. No final de 2023, tive também a{" "}
+  <span className="font-medium">oportunidade</span> de participar de um{" "}
+  <span className="font-medium">Bootcamp de Next.js</span> na{" "}
+  <span className="font-medium">Escola Eliti</span>, onde por pouco mais de{" "}
+  <span className="font-medium">dois meses</span> e dentro de um ambiente{" "}
+  <span className="font-medium">profissional</span>, na sede da{" "}
+  <span className="font-medium">AMcom</span> (que também me preparou muito para o{" "}
+  <span className="font-medium">começo como profissional</span>), me aprofundei no{" "}
+  <span className="font-medium">front-end</span> criando meu primeiro projeto em{" "}
+  <span className="font-medium">Next.js</span>, um jogo da velha. No Bootcamp,{" "}
+  <span className="font-medium">aprendi muito TypeScript e React</span>, e foi ali{" "}
+  que fui levado para o lado do{" "}
+  <span className="font-medium">Front-end</span>, meu principal foco no momento.
+</p>
+<p>
+  <span className="italic">Fora da programação</span>, gosto muito de{" "}
+  <span className="font-medium">esportes no geral</span>, principalmente{" "}
+  <span className="font-medium">futebol</span>, onde acompanho as ligas{" "}
+  <span className="font-medium">brasileiras e inglesas</span>. Também adoro{" "}
+  <span className="font-medium">andar de bike</span>, viajar e conhecer{" "}
+  <span className="font-medium">lugares novos</span> no geral.
+</p>
 
-        <p>
-          <span className="italic">When I'm not coding</span>, I enjoy playing
-          video games, watching movies, and playing with my dog. I also enjoy{" "}
-          <span className="font-medium">learning new things</span>. I am currently
-          learning about{" "}
-          <span className="font-medium">history and philosophy</span>. I'm also
-          learning how to play the guitar.
-        </p>
     </motion.section>
   )
 }
