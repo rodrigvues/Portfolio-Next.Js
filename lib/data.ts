@@ -54,9 +54,9 @@ export const trajetoriaData = [
     title: "INDUSPHERE",
     location: "SENAI, Blumenau",
     description:
-      "Como um dos projetos finais do meu curso, minha turma está produzinho a INDUSPHERE, um sistema automatizado completo para a indústria têxtil , onde ajudo principalmente com o front-end (feito em HTML,CSS e JS) e na modelagem do banco de dados. No geral, o processo vem me proporcionando muita experiência em criação de projetos, trabalho em grupos e método SCRUM. ",
+      "Como um dos projetos finais do meu curso, minha turma produziu a INDUSPHERE, um sistema automatizado completo para a indústria têxtil , onde ajudei principalmente com o front-end (feito em React com TypeScript) e na modelagem do banco de dados. No final o projeto foi muito bem reconhecido no Mundo SENAI e me proporcionou muita experiência na criação de projetos, trabalho em grupos e método SCRUM. ",
     icon: React.createElement(LiaUniversitySolid),
-    date: "05 / 2024 - Momento",
+    date: "05 - 08 / 2024",
   },
 ] as const;
 
@@ -67,6 +67,7 @@ export const projectsData = [
       "Conversor de moedas online totalmente funcional. No momento, meu principal projeto feito com CRA ( Create React App ).",
     tags: ["React", "TypeScript", "Figma", "Tailwind", "API"],
     imageUrl: converrcyImg,
+    link: "https://github.com/rodrigvues/Converrcy-React"
   },
   {
     title: "Jogo da Velha",
@@ -74,6 +75,7 @@ export const projectsData = [
       "Jogo da Velha produzido no bootcamp da ELITI que funcionou como minha ponte do React para Next.Js",
     tags: ["React", "TypeScript", "Next.js", "Vercel"],
     imageUrl: jogodavelhaImg,
+    link: "https://github.com/rodrigvues/JogoDaVelha-Next.Js"
   },
   /*{
     title: "Word Analytics",
