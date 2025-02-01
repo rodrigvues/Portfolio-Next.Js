@@ -24,10 +24,10 @@ export default function Sobre() {
         <p className='mb-3'>
   Desde criança, já pensava em começar uma carreira na área de{" "}
   <span className="font-medium">programação</span> pelo meu interesse na{" "}
-  <span className="font-medium">internet</span> e em computadores, e aos 15 anos{" "}
+  <span className="font-medium">internet</span> e em computadores, e logo{" "}
   <span className="font-medium">comecei</span> o curso técnico em desenvolvimento de{" "}
   <span className="font-medium">sistemas</span>, onde aprendi como realmente{" "}
-  <span className="font-medium">programar na prática</span>. Aprendo principalmente{" "}
+  <span className="font-medium">programar na prática</span>. Aprendi principalmente{" "}
   <span className="font-medium">lógica, programação orientada a objetos</span> e{" "}
   <span className="font-medium">banco de dados</span>, com{" "}
   <span className="font-medium">Java e MySQL</span>. No final de 2023, tive também a{" "}
@@ -37,9 +37,9 @@ export default function Sobre() {
   <span className="font-medium">dois meses</span> e dentro de um ambiente{" "}
   <span className="font-medium">profissional</span>, na sede da{" "}
   <span className="font-medium">AMcom</span> (que também me preparou muito para o{" "}
-  <span className="font-medium">começo como profissional</span>), me aprofundei no{" "}
-  <span className="font-medium">front-end</span> criando meu primeiro projeto em{" "}
-  <span className="font-medium">Next.js</span>, um jogo da velha. No Bootcamp,{" "}
+  <span className="font-medium">começo na área</span>), me aprofundei no{" "}
+  <span className="font-medium">front-end</span> criando meus primeiros projetos em{" "}
+  <span className="font-medium">Next.js</span>. No Bootcamp,{" "}
   <span className="font-medium">aprendi muito TypeScript e React</span>, e foi ali{" "}
   que fui levado para o lado do{" "}
   <span className="font-medium">Front-end</span>, meu principal foco no momento.

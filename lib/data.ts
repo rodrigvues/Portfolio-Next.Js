@@ -58,6 +58,14 @@ export const trajetoriaData = [
     icon: React.createElement(LiaUniversitySolid),
     date: "05 - 08 / 2024",
   },
+  {
+    title: "Curso de Flutter - +Devs2Blu",
+    location: "SENAI, Blumenau",
+    description:
+      "Fui escolhido para o grupo de 100 pessoas do programa da Blusoft com parceria da prefeitura, o +Devs2Blu, um curso de 480h que está melhorando muito minhas habilidades técnicas e pessoais.",
+    icon: React.createElement(LuGraduationCap),
+    date: "09 / 2024",
+  },
 ] as const;
 
 export const projectsData = [
