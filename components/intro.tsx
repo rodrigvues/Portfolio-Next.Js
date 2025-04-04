@@ -29,7 +29,7 @@ export default function Intro() {
   return (
     <section 
     ref={ref}
-    className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]'
+    className='mb-28 max-w-[60rem] text-center sm:mb-0 scroll-mt-[100rem]'
     id='home'
     >
         <div className='flex items-center justify-center'>
@@ -76,7 +76,7 @@ export default function Intro() {
           <span className="font-bold">Flutter</span> no +Devs2Blu.
         </motion.h1>
 
-        <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
+        <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium'
         initial={{ opacity: 0, y: 100 }} 
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -97,15 +97,25 @@ export default function Intro() {
             Baixe meu Currículo <HiDownload className='opacity-60 group-hover:translate-y-1 transition'/> 
           </a>
 
+          <Link className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10'
+          href='/websites'
+          >
+            Precisa de um website?  
+          </Link>
+
+          <a href="https://github.com/rodrigvues" target="_blank" className='bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'>
+            <FaGithubSquare />
+          </a>
+
 
           <a href="https://linkedin.com/in/rodrigvues" target="_blank" className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950  active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'>
             <BsLinkedin />
           </a>
 
 
-          <a href="https://github.com/rodrigvues" target="_blank" className='bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'>
-            <FaGithubSquare />
-          </a>
+          
+
+          
         </motion.div>
     </section>
   )

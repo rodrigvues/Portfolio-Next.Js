@@ -7,6 +7,7 @@ import Footer from '@/components/footer'
 import ThemeSwitch from '@/components/theme-switch'
 import ThemeContextProvider from '@/context/theme-context'
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -31,6 +32,7 @@ export default function RootLayout({
         <ActiveSectionContextProvider>
         <Header />  
         {children}
+
         <Footer />
         
         <Toaster position='top-right'/>
