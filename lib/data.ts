@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import converrcyImg from "@/public/converrcy.png";
 import jogodavelhaImg from "@/public/jogodavelha.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import estudioImg from '@/public/estudio.png'
 
 export const links = [
   {
@@ -113,28 +114,28 @@ export const skillsData = [
 
 export const websitesData = [
   {
-    title: "Em construção",
+    title: "Salão de Beleza",
     description:
       "Em construção",
-    tags: ["Em construção", "Em construção", "Em construção", "Em construção", "Em construção"],
+    tags: ["Salão de beleza", "Ateliê"],
     imageUrl: converrcyImg,
     link: "https://github.com/rodrigvues/Converrcy-React"
   },
   {
-    title: "Em construção",
+    title: "Escolinha",
     description:
       "Em construção",
-    tags: ["Em construção", "Em construção", "Em construção", "Em construção"],
+    tags: ["Escola Infantil", "Creche"],
     imageUrl: jogodavelhaImg,
     link: "https://github.com/rodrigvues/JogoDaVelha-Next.Js"
   },
   {
-    title: "Em construção",
+    title: "Estúdio de Fisioterapia",
     description:
-      "Em construção",
-    tags: ["Em construção", "Em construção", "Em construção", "Em construção", "Em construção"],
-    imageUrl: converrcyImg,
-    link: "https://github.com/rodrigvues/Converrcy-React"
+      "Landing page de um estúdio de fisioterapia fictício com as principais informações do estúdio.",
+    tags: ["fisioterapia", "pilates"],
+    imageUrl: estudioImg,
+    link: "https://estudiofisioterapia.vercel.app/"
   },
   /*{
     title: "Word Analytics",

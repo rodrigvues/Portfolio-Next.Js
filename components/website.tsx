@@ -41,7 +41,7 @@ export default function Website({ title, description, tags, imageUrl, link }: We
                     {/* Text content below */}
                     <div className='flex-1 pt-4 pb-5 px-5 flex flex-col'>
                         <h3 className='text-xl font-semibold'>{title}</h3>
-                        <p className='mt-2 text-sm leading-relaxed text-gray-700 dark:text-white/70 flex-grow'>
+                        <p className='mt-2 text-sm leading-relaxed text-gray-700 dark:text-white/70 flex-grow text-left'>
                             {description}
                         </p>
                         <ul className='flex flex-wrap mt-3 gap-1.5'>
