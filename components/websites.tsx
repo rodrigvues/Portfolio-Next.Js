@@ -34,8 +34,8 @@ export default function Websites() {
   const desktopCards = isDesktop ? [...websitesData, ...websitesData] : websitesData
 
   return (
-    <main className="flex flex-col items-center px-4 mb-16" ref={ref}>
-      <section className="mb-20 w-[350px] sm:w-[800px] text-center sm:mb-0 scroll-mt-[100rem]">
+    <main className="flex flex-col items-center px-4 " ref={ref}>
+      <section className="mb-10 w-[350px] sm:w-[800px] text-center sm:mb-0 scroll-mt-[100rem]">
         <div className="relative">
           <div 
             className={`w-full px-2 ${isDesktop ? 'overflow-hidden' : 'overflow-x-auto snap-x snap-mandatory'}`}

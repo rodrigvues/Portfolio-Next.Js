@@ -1,7 +1,7 @@
 // app/websites/page.tsx
 
-import SectionHeading from "@/components/section-heading";
 import Websites from "@/components/websites";
+import WebsitesContato from "@/components/websitescontato";
 import Websitesheadingsection from "@/components/websitesheading";
 
 
@@ -17,6 +17,7 @@ export default function WebsitesPage() {
     <main className="flex flex-col items-center px-4">
           <Websitesheadingsection />
           <Websites />
+          <WebsitesContato />
     </main>
   );
 }

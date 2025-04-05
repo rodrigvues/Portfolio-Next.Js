@@ -17,17 +17,12 @@ export default function Websitesheadingsection() {
       }}
     >
         <SectionHeading>Precisando de um website?</SectionHeading>
-        <p >
-        Lorem ipsum dolor sit amet, consectetur{" "}
-        <span className="font-medium">adipiscing elit,</span> sed{" "}
-        <span className="font-medium">do </span>eiusmod tempor incididunt ut labore {" "}
-        <span className="font-medium">et dolore magna aliqua.</span> Ut {" "}
-        <span className="font-medium">enim </span> ad  <span className="font-medium">minim </span>, 
-        onde aprendi <span className="font-medium">veniam , quis nostrud</span>exercitation ullamco laboris{" "}
-        <span className="font-medium">nisi ut aliquip ex ea</span> commodo {" "}
-        <span className="font-medium">consequat. Duis aute</span>irure{" "}
-        <span className="font-medium">dolor in reprehenderit</span>.
+        <p>
+        {'->'} Dá uma olhada em alguns que criei e que
+        posso fazer também para você, <span className="font-medium">totalmente personalizado com a sua ideia</span>
         </p>
+
+
 
     </motion.section>
   )
