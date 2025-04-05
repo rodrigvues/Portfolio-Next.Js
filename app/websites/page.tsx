@@ -1,6 +1,10 @@
 // app/websites/page.tsx
-import React from 'react';
-import SectionDivider from "@/components/section-divider";
+
+import SectionHeading from "@/components/section-heading";
+import Websites from "@/components/websites";
+import Websitesheadingsection from "@/components/websitesheading";
+
+
 
 export const metadata = {
   title: 'Websites | V. Rodrigues',
@@ -8,14 +12,11 @@ export const metadata = {
 }
 
 export default function WebsitesPage() {
+  
   return (
     <main className="flex flex-col items-center px-4">
-      <section className="mb-28 max-w-[45rem] text-center sm:mb-0 scroll-mt-[100rem]">
-        <h1 className="text-4xl font-bold mb-80 mt-4">Em construção</h1>
-        
-        
-        
-      </section>
+          <Websitesheadingsection />
+          <Websites />
     </main>
   );
 }

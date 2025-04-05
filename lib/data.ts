@@ -31,6 +31,10 @@ export const links = [
     name: "Contato",
     hash: "/#contato",
   },
+  {
+    name: "Websites",
+    hash: "/websites",
+  },
 ] as const;
 
 export const trajetoriaData = [
@@ -105,4 +109,38 @@ export const skillsData = [
   "Java ( Lóg. de Programação )",
   "Git",
   "Figma",
+] as const;
+
+export const websitesData = [
+  {
+    title: "Converrcy",
+    description:
+      "Conversor de moedas online totalmente funcional. No momento, meu principal projeto feito com CRA ( Create React App ).",
+    tags: ["React", "TypeScript", "Figma", "Tailwind", "API"],
+    imageUrl: converrcyImg,
+    link: "https://github.com/rodrigvues/Converrcy-React"
+  },
+  {
+    title: "Jogo da Velha",
+    description:
+      "Jogo da Velha produzido no bootcamp da ELITI que funcionou como minha ponte do React para Next.Js",
+    tags: ["React", "TypeScript", "Next.js", "Vercel"],
+    imageUrl: jogodavelhaImg,
+    link: "https://github.com/rodrigvues/JogoDaVelha-Next.Js"
+  },
+  {
+    title: "Converrcy",
+    description:
+      "Conversor de moedas online totalmente funcional. No momento, meu principal projeto feito com CRA ( Create React App ).",
+    tags: ["React", "TypeScript", "Figma", "Tailwind", "API"],
+    imageUrl: converrcyImg,
+    link: "https://github.com/rodrigvues/Converrcy-React"
+  },
+  /*{
+    title: "Word Analytics",
+    description:
+      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    imageUrl: wordanalyticsImg,
+  },*/
 ] as const;
