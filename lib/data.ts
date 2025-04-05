@@ -113,26 +113,26 @@ export const skillsData = [
 
 export const websitesData = [
   {
-    title: "Converrcy",
+    title: "Em construção",
     description:
-      "Conversor de moedas online totalmente funcional. No momento, meu principal projeto feito com CRA ( Create React App ).",
-    tags: ["React", "TypeScript", "Figma", "Tailwind", "API"],
+      "Em construção",
+    tags: ["Em construção", "Em construção", "Em construção", "Em construção", "Em construção"],
     imageUrl: converrcyImg,
     link: "https://github.com/rodrigvues/Converrcy-React"
   },
   {
-    title: "Jogo da Velha",
+    title: "Em construção",
     description:
-      "Jogo da Velha produzido no bootcamp da ELITI que funcionou como minha ponte do React para Next.Js",
-    tags: ["React", "TypeScript", "Next.js", "Vercel"],
+      "Em construção",
+    tags: ["Em construção", "Em construção", "Em construção", "Em construção"],
     imageUrl: jogodavelhaImg,
     link: "https://github.com/rodrigvues/JogoDaVelha-Next.Js"
   },
   {
-    title: "Converrcy",
+    title: "Em construção",
     description:
-      "Conversor de moedas online totalmente funcional. No momento, meu principal projeto feito com CRA ( Create React App ).",
-    tags: ["React", "TypeScript", "Figma", "Tailwind", "API"],
+      "Em construção",
+    tags: ["Em construção", "Em construção", "Em construção", "Em construção", "Em construção"],
     imageUrl: converrcyImg,
     link: "https://github.com/rodrigvues/Converrcy-React"
   },
