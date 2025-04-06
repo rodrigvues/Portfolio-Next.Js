@@ -4,9 +4,9 @@ import { LiaUniversitySolid } from "react-icons/lia";
 import { LuGraduationCap } from "react-icons/lu";
 import converrcyImg from "@/public/converrcy.png";
 import jogodavelhaImg from "@/public/jogodavelha.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 import estudioImg from '@/public/estudio.png'
 import salaodebelezaImg from '@/public/salaodebeleza.png'
+import escolaImg from '@/public/escola.png'
 
 export const links = [
   {
@@ -125,10 +125,10 @@ export const websitesData = [
   {
     title: "Escolinha",
     description:
-      "Em construção",
+      "Landing page de uma escola infantil, com as principais informações de turmas e seu funcionamento.",
     tags: ["Escola Infantil", "Creche"],
-    imageUrl: jogodavelhaImg,
-    link: "https://github.com/rodrigvues/JogoDaVelha-Next.Js"
+    imageUrl: escolaImg,
+    link: "https://escolinha-three.vercel.app/"
   },
   {
     title: "Estúdio de Fisioterapia",
