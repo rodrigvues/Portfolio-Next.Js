@@ -6,6 +6,7 @@ import converrcyImg from "@/public/converrcy.png";
 import jogodavelhaImg from "@/public/jogodavelha.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import estudioImg from '@/public/estudio.png'
+import salaodebelezaImg from '@/public/salaodebeleza.png'
 
 export const links = [
   {
@@ -116,10 +117,10 @@ export const websitesData = [
   {
     title: "Salão de Beleza",
     description:
-      "Em construção",
+      "Landing page de um salão de beleza fictício, com as principais informações do estúdio e seus serviços.",
     tags: ["Salão de beleza", "Ateliê"],
-    imageUrl: converrcyImg,
-    link: "https://github.com/rodrigvues/Converrcy-React"
+    imageUrl: salaodebelezaImg,
+    link: "https://salaodebeleza-seven.vercel.app/"
   },
   {
     title: "Escolinha",

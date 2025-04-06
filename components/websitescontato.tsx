@@ -31,7 +31,7 @@ export default function WebsitesContato() {
                   delay: 0.1,
                 }}   
                 >
-        <Link href="https://api.whatsapp.com/send?phone=5547988244702&text=Ol%C3%A1.%0AVim%20do%20seu%20portfolio%20e%20gostaria%20e%20tenho%20interesse%20nos%20websites." className='group bg-green-500 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-green-900 active:scale-105 transition'
+        <Link href="https://api.whatsapp.com/send?phone=5547988244702&text=Ol%C3%A1.%0AVenho%20do%20seu%20portfolio%20e%20tenho%20interesse%20pelos%20websites." className='group bg-green-500 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-green-900 active:scale-105 transition'
         > Entre em Contato <FaWhatsapp className='opacity-70 ml-2 group-hover:translate-x-1 transition'/> </Link>
 
         </motion.div>
