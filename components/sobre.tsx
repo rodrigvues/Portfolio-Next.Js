@@ -28,13 +28,13 @@ export default function Sobre() {
   <span className="font-medium">cursar Desenvolvimento de Sistemas</span> no{" "}
   <span className="font-medium">SENAI</span> em <span className="font-medium">2022</span>, 
   onde aprendi <span className="font-medium">programação na prática</span>, com foco em{" "}
-  <span className="font-medium">lógica, Programação Orientada a Objetos</span> e{" "}
-  <span className="font-medium">bancos de dados</span>, utilizando{" "}
+  <span className="font-medium">lógica, programação orientada a objetos</span> e{" "}
+  <span className="font-medium">banco de dados</span>, utilizando{" "}
   <span className="font-medium">Java e MySQL</span>.
 </p>
 <p className='mb-3'>
   Ao longo da minha formação, conheci{" "}
-  <span className="font-medium">React e Next.js</span> e coloquei meu foco no{" "}
+  <span className="font-medium">React e Next.js</span> e comecei a explorar o{" "}
   <span className="font-medium">Front-end</span>. Já em{" "}
   <span className="font-medium">2024</span>, ainda antes de me formar em{" "}
   <span className="font-medium">Desenvolvimento de Sistemas</span>, entrei no{" "}

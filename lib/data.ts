@@ -101,16 +101,16 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
+  "HTML - CSS - JavaScript",
   "React",
-  "React Native",
   "Next.js",
-  "Java ( Lóg. de Programação )",
+  "Java",
   "Git",
   "Figma",
+  "Scrum",
+  "Flutter",
+  "MySQL",
+  "Modelagem de Dados",
 ] as const;
 
 export const websitesData = [

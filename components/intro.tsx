@@ -71,8 +71,7 @@ export default function Intro() {
         >
           <span className="font-bold">Olá, meu nome é Vitor.</span> Sou um{" "}
           <span className="font-bold">Dev e Estudante</span> em{" "}
-          <span className="font-bold">Blumenau</span>. Formado em DS no SENAI, adoro desenvolver {" "}
-          <span className="underline">websites & apps</span>. Foco no desenvolvimento com <span className="italic">React e Flutter</span> e no momento estou cursando{" "}
+          <span className="font-bold">Blumenau</span>. Foco no desenvolvimento com <span className="italic underline">React e Flutter</span> e no momento estou cursando{" "}
           <span className="font-bold">Flutter</span> no +Devs2Blu.
         </motion.h1>
 
@@ -103,12 +102,12 @@ export default function Intro() {
             Precisa de um website?  
           </Link>
 
-          <a href="https://github.com/rodrigvues" target="_blank" className='bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'>
+          <a href="https://github.com/rodrigvues" target="_blank" className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'>
             <FaGithubSquare />
           </a>
 
 
-          <a href="https://linkedin.com/in/rodrigvues" target="_blank" className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950  active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'>
+          <a href="https://linkedin.com/in/rodrigvues" target="_blank" className='bg-white p-4 text-gray-700 flex items-center gap-2  rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950  active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'>
             <BsLinkedin />
           </a>
 

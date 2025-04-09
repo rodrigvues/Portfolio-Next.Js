@@ -37,7 +37,7 @@ export default function Trajetoria() {
               icon={item.icon}
               iconStyle={{
                  background:
-                  theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
+                  theme === "light" ? "white" : "#101828",
                 fontSize: "1.5rem",
               }}
             >
