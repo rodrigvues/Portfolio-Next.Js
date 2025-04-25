@@ -7,6 +7,8 @@ import jogodavelhaImg from "@/public/jogodavelha.png";
 import estudioImg from '@/public/estudio.png'
 import salaodebelezaImg from '@/public/salaodebeleza.png'
 import escolaImg from '@/public/escola.png'
+import servbluImg from '@/public/pix.png'
+import livrificandoImg from '@/public/saas.png'
 
 export const links = [
   {
@@ -75,6 +77,22 @@ export const trajetoriaData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "ServBlu",
+    description:
+      "App que conecta prestadores de serviços e contratadores, em desenvolvimento.",
+    tags: ["Flutter", "Dart", "Supabase", "Firebase", "Figma"],
+    imageUrl: servbluImg,
+    link: "https://www.linkedin.com/posts/rodrigvues_flutter-flutterdev-mobiledevelopment-activity-7318256920769785858-RuF7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEEvm7IB12BmR1jFrYYTsHrt5w4JBLLdFfs"
+  },
+  {
+    title: "Livrificando",
+    description:
+      "Formatador de textos online, leitura fácil, pdf e ABNT, em desenvolvimento",
+    tags: ["React", "TypeScript", "Next.js", "Vercel"],
+    imageUrl: livrificandoImg,
+    link: "/"
+  },
   {
     title: "Converrcy",
     description:
