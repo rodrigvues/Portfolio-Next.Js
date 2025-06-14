@@ -71,8 +71,8 @@ export default function Intro() {
         >
           <span className="font-bold">Olá, meu nome é Vitor.</span> Sou um{" "}
           <span className="font-bold">Dev e Estudante</span> em{" "}
-          <span className="font-bold">Blumenau</span>. Foco no desenvolvimento com <span className="italic underline">React e Flutter</span> e no momento estou cursando{" "}
-          <span className="font-bold">Flutter</span> no +Devs2Blu.
+          <span className="font-bold">Blumenau</span>. Foco no desenvolvimento <span className="italic underline">Web</span> e no momento estou cursando{" "}
+          <span className="font-bold">ADS</span> na Estácio.
         </motion.h1>
 
         <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium'

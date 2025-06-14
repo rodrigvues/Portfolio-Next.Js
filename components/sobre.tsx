@@ -22,7 +22,7 @@ export default function Sobre() {
     >
         <SectionHeading>Sobre mim</SectionHeading>
         <p className='mb-3'>
-  Desde pequeno, sempre fui fascinado por{" "}
+  Desde pequeno, sempre gostei de{" "}
   <span className="font-medium">tecnologia, internet</span> e{" "}
   <span className="font-medium">computadores</span>. Esse interesse me levou a{" "}
   <span className="font-medium">cursar Desenvolvimento de Sistemas</span> no{" "}
@@ -39,18 +39,18 @@ export default function Sobre() {
   <span className="font-medium">2024</span>, ainda antes de me formar em{" "}
   <span className="font-medium">Desenvolvimento de Sistemas</span>, entrei no{" "}
   <span className="font-medium">programa +Devs2Blu</span> da{" "}
-  <span className="font-medium">Blusoft</span>, onde estou me aprofundando no{" "}
+  <span className="font-medium">Blusoft</span>, onde me aprofundei no{" "}
   <span className="font-medium">desenvolvimento mobile</span> com{" "}
-  <span className="font-medium">Flutter</span>. Esse curso tem sido um{" "}
+  <span className="font-medium">Flutter</span>. Esse curso foi um{" "}
   <span className="font-medium">divisor de águas</span> na minha jornada, pois me{" "}
   <span className="font-medium">permitiu explorar</span> a criação de{" "}
-  <span className="font-medium">aplicativos do zero</span>, entender melhor a{" "}
-  <span className="font-medium">estrutura de um projeto mobile</span> e aprimorar{" "}
-  minhas habilidades com <span className="font-medium">Dart</span> e{" "}
-  <span className="font-medium">bancos de dados integrados</span>.
+  <span className="font-medium">aplicativos do zero</span> e entender melhor a{" "}
+  <span className="font-medium">estrutura de um projeto mobile</span>. Agora após o curso, começei{" "}
+  <span className="font-medium">ADS</span> na{" "}
+  <span className="font-medium">Estácio</span>.
 </p>
 <p>
-  <span className="italic">Fora da programação</span>, sou apaixonado por{" "}
+  <span className="italic">Fora da programação</span>, gosto muito de{" "}
   <span className="font-medium">esportes</span>, especialmente{" "}
   <span className="font-medium">futebol</span>, acompanhando tanto o cenário{" "}
   <span className="font-medium">brasileiro quanto o europeu</span>. Também gosto{" "}
